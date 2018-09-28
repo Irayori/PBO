@@ -30,7 +30,7 @@ public class Suhu {
         System.out.println("========================================");
         System.out.print("Suhu dalam Fahrenheit : ");
             fahrenheit = input.nextInt();
-        celcius = (fahrenheit*5/9)+32;
+        celcius = (fahrenheit-32)*5/9;
         System.out.println("Suhu dalam Celcius : "+celcius+" C");// TODO code application logic here
     }
     
